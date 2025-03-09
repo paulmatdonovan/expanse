@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import jeans from '../Assets/Jeans (1).jpg'
 import shirt from '../Assets/CAMICISSIMA_White_Linen_Shirt_Collar_Final__32771.jpg'
-import belt1 from '../Assets/Belts (2).jpg'
 import suit1 from '../Assets/suit1.jpg'
+import shirt1 from '../Assets/Polo3.jpg'
 
 const Card = () => {
   const [products] = useState([
@@ -27,9 +27,18 @@ const Card = () => {
       id: 3,
       name: "BUGATTI Grey / Brown Suit",
       description: "Single breasted suit. Made in Italy. This suit is made from 100% Pure Wool so it will look great from day one and still hold its shape for years.",
-      price: 800.00,
+      price: 650.00,
       currency: "AUD",
       imageUrl: suit1,
+    },
+    {
+      id: 3,
+      name: "GIANMARCO VENTURI Polo Shirt Navy Blue",
+      description: "Upgrade your wardrobe with this GIANMARCO VENTURI Navy Blue Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability.",
+
+      price: 130.00,
+      currency: "AUD",
+      imageUrl: shirt1,
     },
   ]);
 
@@ -75,7 +84,7 @@ const Card = () => {
       </div>
       <div className="about-us">
         <h1>About us</h1>
-        <p>We are a small store in Nhill Victoria. Our aim is to bring the finest Italian menswear to the Wimmera region and the people in Nhill. </p><p>As we are new, we only have limited stock at this stage.</p> <p>Feel free to reach out an contact me if you have any questions or would like to order anything in your size.</p>
+        <p>We are a small store in Nhill Victoria. Our aim is to bring the finest Italian menswear to the Wimmera region and the people in Nhill. </p><p>As we are new, we only have limited stock at this stage.</p> <p>Feel free to reach out and contact me if you have any questions or would like to order anything in your size.</p>
       </div>
 
       </div>
@@ -99,8 +108,8 @@ const styles = {
     textAlign: 'center',
   },
   image: {
-    width: '100%',
-    height: 'auto',
+    width: "80%",
+    maxHeight: '50%',
     borderRadius: '8px',
     marginBottom: '16px',
   },
