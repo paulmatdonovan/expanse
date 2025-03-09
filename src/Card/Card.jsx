@@ -4,8 +4,22 @@ import jeans from '../Assets/Jeans (1).jpg'
 import shirt from '../Assets/CAMICISSIMA_White_Linen_Shirt_Collar_Final__32771.jpg'
 import suit1 from '../Assets/suit1.jpg'
 import shirt1 from '../Assets/Polo3.jpg'
+import shirt2 from '../Assets/Polo.jpg'
+import suit4 from '../Assets/Suit4.jpg'
+
+
 
 const Card = () => {
+
+  const [selectedSizes, setSelectedSizes] = useState({}); // Track selected sizes
+
+  const handleSizeChange = (productId, size) => {
+    setSelectedSizes((prev) => ({
+      ...prev,
+      [productId]: size,
+    }));
+  };
+
   const [products] = useState([
     {
       id: 1,
@@ -17,9 +31,11 @@ const Card = () => {
     },
     {
       id: 2,
-      name: "Classic Men's Jeans",
-      description: "Durable and stylish jeans for everyday wear.",
-      price: 159.99,
+      name: "CAMICISSIMA Dark Blue Men's Regular Fit Jeans",
+      description: "Dark wash regular fit jeans in a classic 5 pocket style. The stretch denim will ensure both comfort and style as you go about your day to day tasks. Made in Italy.",
+      price: 160.00,
+      old_price: 170.00,
+      sizes: ["56"] ,
       currency: "AUD",
       imageUrl: jeans,
     },
@@ -40,6 +56,29 @@ const Card = () => {
       currency: "AUD",
       imageUrl: shirt1,
     },
+    {
+      id: 4,
+      name: "GIANMARCO VENTURI Polo Shirt Beige",
+      description: "Upgrade your wardrobe with this GIANMARCO VENTURI Beige Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability.",
+
+      price: 130.00,
+      currency: "AUD",
+      imageUrl: shirt2,
+    },
+    {
+      id: 5,
+      name: "MANUEL RITZ Navy Blue Pure Wool Suit",
+      description: "Single breasted navy blue wool suit. Window pane pattern fabric. Summer weight. Working button cuffs. Notched lapel. Regular fit. 100% wool. Made in Italy.",
+
+      price: 850.00,
+      sizes: ["48","50","52"] ,
+
+      currency: "AUD",
+      imageUrl: suit4,
+    },
+    
+
+
   ]);
 
   const createOrder = (product) => (data, actions) => {
@@ -74,6 +113,7 @@ const Card = () => {
             <img src={product.imageUrl} alt={product.name} style={styles.image} />
             <h2>{product.name}</h2>
             <p>{product.description}</p>
+            
             <p>Price: ${product.price} {product.currency}</p>
             <PayPalButtons
               createOrder={createOrder(product)}
