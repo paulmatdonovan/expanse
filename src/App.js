@@ -2,32 +2,32 @@ import './App.css';
 import {React, useState} from 'react';
 import Card from './Card/Card';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import jeans from '../src/Assets/Cadini (5).jpg'
+import jeans from '../src/Assets/Cadini (1).jpg'
 import shirt from '../src/Assets/Cadini (5).jpg'
-import suit1 from '../src/Assets/Cadini (5).jpg'
-import shirt1 from '../src/Assets/Cadini (5).jpg'
-import shirt2 from '../src/Assets/Cadini (5).jpg'
-import suit4 from '../src/Assets/Cadini (5).jpg'
+import suit1 from '../src/Assets/Cadini (3).jpg'
+import shirt2 from '../src/Assets/Cadini (2).jpg'
+import suit4 from '../src/Assets/Cadini (4).jpg' 
+import ProductPage from './Pages/ProductPage';
 
 function App() {
 
   const [products] = useState([
       {
         id: 1,
-        name: "Premium Men's Shirt",
+        name: "Cadini Premium Men's Dress Shirt",
         description: "High-quality linen shirt for a sleek and modern look.",
         price: 179.99,
         currency: "AUD",
         sizes: ["56","48"] ,
-        imageUrl: shirt,
+        imageUrl: shirt2,
       },
       {
         id: 2,
-        name: "CAMICISSIMA Dark Blue Men's Regular Fit Jeans",
+        name: "Cadini Dark Blue Men's Regular Fit Jeans",
         description: "Dark wash regular fit jeans in a classic 5 pocket style. The stretch denim will ensure both comfort and style as you go about your day to day tasks. Made in Italy.",
         price: 160.00,
         old_price: 170.00,
-        sizes: ["56","48"] ,
+        sizes: ["34","32"] ,
         currency: "AUD",
         imageUrl: jeans,
         imageUrl2: jeans,
@@ -46,16 +46,18 @@ function App() {
       },
       {
         id: 3,
-        name: "GIANMARCO VENTURI Polo Shirt Navy Blue",
+        name: "Cadini T-shirt",
         description: "Upgrade your wardrobe with this GIANMARCO VENTURI Navy Blue Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability.",
         price: 130.00,
         currency: "AUD",
         sizes: ["M","L"] ,
-        imageUrl: shirt1,
+        imageUrl: shirt,
+        imageUrl2: suit1,
+
       },
       {
         id: 4,
-        name: "GIANMARCO VENTURI Polo Shirt Beige",
+        name: "Business Shirt",
         description: "Upgrade your wardrobe with this GIANMARCO VENTURI Beige Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability.",
         price: 130.00,
         currency: "AUD",
@@ -65,11 +67,11 @@ function App() {
       },
       {
         id: 5,
-        name: "MANUEL RITZ Navy Blue Pure Wool Suit",
-        description: "Single breasted navy blue wool suit. Window pane pattern fabric. Summer weight. Working button cuffs. Notched lapel. Regular fit. 100% wool. Made in Italy.",
+        name: "Cadini Grey Suit",
+        description: "Single breasted medium grey wool suit. Window pane pattern fabric. Summer weight. Working button cuffs. Notched lapel. Regular fit. 100% wool. Made in Italy with Italian fabric.",
   
         price: 850.00,
-        sizes: ["48","50","52"] ,
+        sizes: ["48","50",] ,
   
         currency: "AUD",
         imageUrl: suit4,
@@ -85,7 +87,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Card products={products}/>}/>
-         
+         <Route path="/product/:productId" element={<ProductPage products={products}/>}/>
       </Routes>
     </Router>
 

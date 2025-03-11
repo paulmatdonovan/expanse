@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+import { Link } from 'react-router-dom';
 
 
 
@@ -52,11 +53,11 @@ const Card = ({products }) => {
       <div style={styles.store}>
         {products.map((product) => (
           <div key={product.id} style={styles.card}>
+            <Link to={`product/${product.id}`} style={styles.link}>
             <img src={product.imageUrl} alt={product.name} style={styles.image} />
             <h2>{product.name}</h2>
-            
             <p>Price: ${product.price} {product.currency}</p>
-
+            </Link>
           <div>
               <label>Select Size:</label>
               <select
@@ -110,6 +111,10 @@ const styles = {
     maxHeight: '50%',
     borderRadius: '8px',
     marginBottom: '16px',
+  },
+  link: {
+    textDecoration: 'none',
+    color: 'inherit',
   },
 };
 
