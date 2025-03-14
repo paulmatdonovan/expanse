@@ -1,6 +1,5 @@
 import './App.css';
 import {React, useState} from 'react';
-import { Analytics } from "@vercel/analytics/react"
 import Card from './Card/Card';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import jeans from '../src/Assets/Cadini (1).jpg'
