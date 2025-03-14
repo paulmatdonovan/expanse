@@ -46,7 +46,7 @@ const ProductPage = ({ products }) => {
           <div style={styles.content}>
             <div style={styles.imageContainer}>
               <img src={product.imageUrl} alt={product.name} style={styles.image} />
-              <img src={product.imageUrl2} alt={product.name} style={styles.image} />
+              {/* <img src={product.imageUrl2} alt={product.name} style={styles.image} /> */}
             </div>
             <div style={styles.details}>
 
@@ -87,6 +87,7 @@ const ProductPage = ({ products }) => {
   const styles = {
     productPage: {
       padding: '20px',
+      width: '80%',
       maxWidth: '1200px',
       margin: '0 auto',
       fontFamily: 'Arial, sans-serif',
@@ -121,6 +122,7 @@ const ProductPage = ({ products }) => {
       flex: 1,
       display: 'flex',
       flexDirection: 'column',
+      justifyContent:'center',
       gap: '16px',
     },
     description: {
@@ -132,9 +134,13 @@ const ProductPage = ({ products }) => {
       fontSize: '1.5rem',
       fontWeight: 'bold',
       color: '#333',
+      margin:'0 auto',
+
     },
     sizeSelection: {
       marginTop: '20px',
+      margin:'0 auto',
+
     },
     sizeOptions: {
       display: 'flex',
@@ -156,9 +162,12 @@ const ProductPage = ({ products }) => {
       border: '1px solid #ccc',
       borderRadius: '4px',
       transition: 'background-color 0.3s, border-color 0.3s',
+      margin:'0 auto',
+
     },
     paypalButton: {
       marginTop: '20px',
+      margin:'0 auto',
     },
     // Responsive styles
     '@media (max-width: 768px)': {

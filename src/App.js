@@ -1,5 +1,6 @@
 import './App.css';
 import {React, useState} from 'react';
+import { Analytics } from "@vercel/analytics/react"
 import Card from './Card/Card';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import jeans from '../src/Assets/Cadini (1).jpg'
@@ -80,7 +81,27 @@ Step up your denim game with Cadini Jeans—where Italian craftsmanship meets ev
       {
         id: 4,
         name: "Cadini T-shirt",
-        description: "Upgrade your wardrobe with this GIANMARCO VENTURI Navy Blue Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability.",
+        description: `Effortless Italian Elegance: Cadini Cotton T-Shirt
+
+Introducing the Cadini Cotton T-Shirt, a perfect fusion of comfort, style, and Italian craftsmanship. Available in soft, soothing shades of pale blue and delicate pink, this t-shirt is designed to elevate your casual wardrobe with understated sophistication.
+
+Made in Italy by Cadini, this t-shirt is crafted from 100% premium cotton, ensuring a luxuriously soft feel against your skin and exceptional breathability for all-day comfort. The fabric’s lightweight quality and impeccable finish make it ideal for layering or wearing on its own, offering versatility for any casual occasion.
+
+Featuring the distinctive Cadini station insgina as a subtle yet signature detail, this t-shirt embodies the brand's commitment to quality and timeless style. Whether paired with Cadini jeans for a coordinated look, dressed down with shorts for a relaxed vibe, or layered under a blazer for a smart-casual ensemble, this t-shirt is a must-have staple.
+
+Key Features:
+
+Made in Italy by Cadini
+
+100% premium cotton for unmatched softness and comfort
+
+Available in pale blue and soft pink
+
+Features the iconic Cadini station insgina 
+
+Versatile design perfect for casual or layered looks.
+
+Experience the perfect balance of comfort and style with the Cadini Cotton T-Shirt. Whether you choose pale blue for a fresh, modern look or soft pink for a touch of subtle elegance, this t-shirt is your go-to piece for effortless Italian-inspired style.`,
         price: 130.00,
         currency: "AUD",
         sizes: ["M","L"] ,
@@ -100,7 +121,7 @@ Step up your denim game with Cadini Jeans—where Italian craftsmanship meets ev
 
       },
       {
-        id: 5,
+        id: 6,
         name: "Cadini Grey Suit",
         description: "Single breasted medium grey wool suit. Window pane pattern fabric. Summer weight. Working button cuffs. Notched lapel. Regular fit. 100% wool. Made in Italy with Italian fabric.",
   
