@@ -31,7 +31,7 @@ Step into luxury. Step into Cadini.`
 ,
         price: 179.99,
         currency: "AUD",
-        sizes: ["39","40"] ,
+        sizes: ["39","40","42"],
         imageUrl: shirt2,
       },
       {
@@ -69,10 +69,15 @@ Step up your denim game with Cadini Jeans—where Italian craftsmanship meets ev
       {
         id: 3,
         name: "Cadini Navy Blue Windowpane Suit",
-        description: "Single breasted suit. Made in Italy. This suit is made from 100% Pure Wool so it will look great from day one and still hold its shape for years.",
-        price: 650.00,
+        description: `Cadini Navy Blue Windowpane Suit
+This elegant Cadini suit is crafted from 100% premium Italian wool, ensuring exceptional quality, durability, and a luxurious feel. The fabric is lightweight yet warm, making it perfect for both formal and semi-formal occasions.
+The suit features a classic navy blue base with a subtle windowpane pattern, adding a touch of sophistication and visual interest. The windowpane design is understated yet distinctive, making it versatile for business meetings, weddings, or upscale events.
+Tailored in size 48, this suit offers a modern, fitted silhouette that exudes confidence and style. As a product made in Italy, it reflects the finest craftsmanship and attention to detail, synonymous with Italian tailoring.
+Ideal for the discerning gentleman, this Cadini suit combines timeless design with contemporary elegance, making it a standout addition to any wardrobe.
+`,
+        price: 850.00,
         currency: "AUD",
-        sizes: ["50","48"] ,
+        sizes: ["48"] ,
         imageUrl: suit1,
         imageUrl2: suit1,
   
@@ -84,7 +89,7 @@ Step up your denim game with Cadini Jeans—where Italian craftsmanship meets ev
 
 Introducing the Cadini Cotton T-Shirt, a perfect fusion of comfort, style, and Italian craftsmanship. Available in soft, soothing shades of pale blue and delicate pink, this t-shirt is designed to elevate your casual wardrobe with understated sophistication.
 
-Made in Italy by Cadini, this t-shirt is crafted from 100% premium cotton, ensuring a luxuriously soft feel against your skin and exceptional breathability for all-day comfort. The fabric’s lightweight quality and impeccable finish make it ideal for layering or wearing on its own, offering versatility for any casual occasion.
+Made in Italy by Cadini, this t-shirt is crafted from 100% premium cotton, ensuring a luxuriously soft feel against your skin and exceptional breathability for all-day comfort. The fabric's lightweight quality and impeccable finish make it ideal for layering or wearing on its own, offering versatility for any casual occasion.
 
 Featuring the distinctive Cadini station insgina as a subtle yet signature detail, this t-shirt embodies the brand's commitment to quality and timeless style. Whether paired with Cadini jeans for a coordinated look, dressed down with shorts for a relaxed vibe, or layered under a blazer for a smart-casual ensemble, this t-shirt is a must-have staple.
 
@@ -122,7 +127,7 @@ Experience the perfect balance of comfort and style with the Cadini Cotton T-Shi
       {
         id: 6,
         name: "Cadini Grey Suit",
-        description: "Single breasted medium grey wool suit. Window pane pattern fabric. Summer weight. Working button cuffs. Notched lapel. Regular fit. 100% wool. Made in Italy with Italian fabric.",
+        description: `Crafted from 100% premium Italian wool, this Cadini suit combines timeless elegance with modern sophistication. The sleek grey base features a subtle blue windowpane pattern, offering a refined yet versatile look. Tailored in Italy with precision and attention to detail, it ensures a perfect fit and luxurious comfort. Ideal for business meetings, weddings, or formal events, this suit is a must-have for the discerning gentleman who values quality, style, and exceptional craftsmanship.`,
   
         price: 850.00,
         sizes: ["48","50",] ,
