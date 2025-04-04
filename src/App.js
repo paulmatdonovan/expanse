@@ -100,11 +100,12 @@ Versatile design perfect for casual or layered looks.
         },
         {
             id: 6,
-            name: "Cadini Grey Suit",
-            description: `Crafted from 100% premium Italian wool, this Cadini suit combines timeless elegance with modern sophistication. The sleek grey base features a subtle blue windowpane pattern, offering a refined yet versatile look. Tailored in Italy with precision and attention to detail, it ensures a perfect fit and luxurious comfort. Ideal for business meetings, weddings, or formal events, this suit is a must-have for the discerning gentleman who values quality, style, and exceptional craftsmanship.`,
+            name: "Cadini Made in Italy Medium Blue Single-Breasted Suit",
+            description: `Elevate your wardrobe with this impeccably tailored single-breasted suit, expertly crafted from 100% premium Italian wool. Designed for both sophistication and comfort, this lightweight suit features a refined medium blue with a subtle pinstripe, making it a versatile choice for business or formal occasions. Details: * Fabric: 100% Italian wool (lightweight) * Color: Medium blue with thin pinstripe * Fit: Classic single-breasted design * Size: 38R. Handmade with precision, this suit embodies timeless elegance and superior craftsmanship. Limited availability—contact us today to secure yours!
+`,
 
-            price: 850.0,
-            sizes: ["48"],
+            price: 875.0,
+            sizes: ["38"],
 
             currency: "AUD",
             imageUrl: suit4,
