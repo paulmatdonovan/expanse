@@ -89,7 +89,7 @@ Versatile design perfect for casual or layered looks.
         },
         {
             id: 5,
-            name: "Polo Shirt",
+            name: "GIANMARCO VENTURI Beige Polo Shirt",
             description:
                 "Upgrade your wardrobe with this GIANMARCO VENTURI Beige Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability.",
             price: 130.0,
