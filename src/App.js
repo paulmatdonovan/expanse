@@ -3,9 +3,11 @@ import { React, useState } from "react";
 import Card from "./Card/Card";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import jeans from "../src/Assets/Cadini (1).jpg";
-import shirt from "../src/Assets/Cadini (5).jpg";
+import shirt from "../src/Assets/Shirt (2).jpg";
 import suit1 from "../src/Assets/Cadini (3).jpg";
-import shirt2 from "../src/Assets/Cadini (2).jpg";
+import suit2 from "../src/Assets/Suit.jpeg.jpg";
+
+import shirt2 from "../src/Assets/Shirt (3).jpg";
 import suit4 from "../src/Assets/Cadini (4).jpg";
 import ProductPage from "./Pages/ProductPage";
 import polo from "../src/Assets/Polo.jpg";
@@ -23,6 +25,7 @@ Experience the perfect blend of comfort, quality, and Italian artistry. Choose y
             currency: "AUD",
             sizes: [, "40", "42"],
             imageUrl: shirt2,
+            imageUrl2: shirt,
         },
         {
             id: 2,
@@ -55,7 +58,7 @@ Ideal for the discerning gentleman, this Cadini suit combines timeless design wi
             currency: "AUD",
             sizes: ["48"],
             imageUrl: suit1,
-            imageUrl2: suit1,
+            imageUrl2: suit2,
         },
         {
             id: 4,
