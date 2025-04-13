@@ -3,14 +3,22 @@ import { React, useState } from "react";
 import Card from "./Card/Card";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import jeans from "../src/Assets/Cadini (1).jpg";
+import jeans2 from "../src/Assets/jeans7.jpg";
+
 import shirt from "../src/Assets/Shirt (2).jpg";
+import shirt2 from "../src/Assets/Shirt (1).jpg";
+
 import suit1 from "../src/Assets/Cadini (3).jpg";
 import suit2 from "../src/Assets/Suit.jpeg.jpg";
 
-import shirt2 from "../src/Assets/Shirt (3).jpg";
-import suit4 from "../src/Assets/Cadini (4).jpg";
+import tshirt from "../src/Assets/Cadini (6).jpg";
+import tshirt2 from "../src/Assets/IMG_5889.jpg";
+
+import suit4 from "../src/Assets/IMG_59251.jpg";
+import suit3 from "../src/Assets/light blue (2).jpg";
 import ProductPage from "./Pages/ProductPage";
 import polo from "../src/Assets/Polo.jpg";
+// import suit3 from "../src/Assets/";
 
 function App() {
     const [products] = useState([
@@ -23,9 +31,9 @@ The quality design makes this shirt a versatile staple for the modern gentleman.
 Experience the perfect blend of comfort, quality, and Italian artistry. Choose your shade—blue for a touch of sophistication or white for timeless purity—and make a statement with every wear. Step into luxury. Step into Cadini.`,
             price: 179.99,
             currency: "AUD",
-            sizes: [, "40", "42"],
-            imageUrl: shirt2,
-            imageUrl2: shirt,
+            sizes: ["40", "42"],
+            imageUrl: shirt,
+            imageUrl2: shirt2,
         },
         {
             id: 2,
@@ -43,7 +51,7 @@ Comfortable and stylish premium denim fabric pairs effortlessly with casual blaz
             sizes: ["33"],
             currency: "AUD",
             imageUrl: jeans,
-            imageUrl2: jeans,
+            imageUrl2: jeans2,
         },
         {
             id: 3,
@@ -84,11 +92,11 @@ Features the iconic Cadini station insgina
 Versatile design perfect for casual or layered looks.
 
 `,
-            price: 130.0,
+            price: 99.0,
             currency: "AUD",
             sizes: ["M"],
-            imageUrl: shirt,
-            // imageUrl2: suit1,
+            imageUrl: tshirt,
+            imageUrl2: tshirt2,
         },
         {
             id: 5,
@@ -112,7 +120,7 @@ Versatile design perfect for casual or layered looks.
 
             currency: "AUD",
             imageUrl: suit4,
-            // imageUrl2: suit4,
+            imageUrl2: suit3,
         },
     ]);
 
