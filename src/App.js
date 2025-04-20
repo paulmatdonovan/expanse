@@ -17,7 +17,12 @@ import tshirt2 from "../src/Assets/IMG_5889.jpg";
 import suit4 from "../src/Assets/IMG_59251.jpg";
 import suit3 from "../src/Assets/light blue (2).jpg";
 import ProductPage from "./Pages/ProductPage";
-import polo from "../src/Assets/Polo.jpg";
+import polo1 from "../src/Assets/Polo3.jpg";
+import polo2 from "../src/Assets/Black polo.jpg";
+
+import jumper1 from "../src/Assets/per (1).jpg";
+import jumper2 from "../src/Assets/per (3).jpg";
+
 // import suit3 from "../src/Assets/";
 
 function App() {
@@ -100,14 +105,14 @@ Versatile design perfect for casual or layered looks.
         },
         {
             id: 5,
-            name: "GIANMARCO VENTURI Beige Polo Shirt",
+            name: "GIANMARCO VENTURI 100% Cotton Polo Shirt",
             description:
-                "Upgrade your wardrobe with this GIANMARCO VENTURI Beige Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability.",
+                "Upgrade your wardrobe with this GIANMARCO VENTURI Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability. Available in Blue or Black.",
             price: 130.0,
             currency: "AUD",
-            sizes: ["M", "L"],
-            imageUrl: polo,
-            // imageUrl2:polo,
+            sizes: ["M"],
+            imageUrl: polo1,
+            imageUrl2: polo2,
         },
         {
             id: 6,
@@ -121,6 +126,16 @@ Versatile design perfect for casual or layered looks.
             currency: "AUD",
             imageUrl: suit4,
             imageUrl2: suit3,
+        },
+        {
+            id: 7,
+            name: "Button-up jumper by EXIBIT - 100% Made in Italy ",
+            description: `Crafted in Italy from 100% lightweight wool, this light brown EXIBIT jumper offers refined style and breathable comfort. Featuring a classic button-up design in a versatile light brown shade, it's perfect for layering or wearing on its own. Ideal for smart-casual looks all year round.`,
+            price: 150.0,
+            currency: "AUD",
+            sizes: ["M"],
+            imageUrl: jumper1,
+            imageUrl2: jumper2,
         },
     ]);
 
