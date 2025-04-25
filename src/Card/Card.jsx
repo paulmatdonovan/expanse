@@ -58,6 +58,10 @@ const Card = ({ products }) => {
                                 />
                                 <h2>{product.name}</h2>
                                 <p>
+                                    Old price: ${product.old_price}{" "}
+                                    {product.currency}
+                                </p>
+                                <p>
                                     Price: ${product.price} {product.currency}
                                 </p>
                             </Link>

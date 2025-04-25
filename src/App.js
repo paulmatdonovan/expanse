@@ -2,8 +2,8 @@ import "./App.css";
 import { React, useState } from "react";
 import Card from "./Card/Card";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import jeans from "../src/Assets/Cadini (1).jpg";
-import jeans2 from "../src/Assets/jeans7.jpg";
+import jeans from "../src/Assets/IMG_6067.jpg";
+import jeans2 from "../src/Assets/jeans (4).jpg";
 
 import shirt from "../src/Assets/Shirt (2).jpg";
 import shirt2 from "../src/Assets/Shirt (1).jpg";
@@ -17,11 +17,14 @@ import tshirt2 from "../src/Assets/IMG_5889.jpg";
 import suit4 from "../src/Assets/IMG_59251.jpg";
 import suit3 from "../src/Assets/light blue (2).jpg";
 import ProductPage from "./Pages/ProductPage";
+
 import polo1 from "../src/Assets/Polo3.jpg";
 import polo2 from "../src/Assets/Black polo.jpg";
 
 import jumper1 from "../src/Assets/per (1).jpg";
 import jumper2 from "../src/Assets/per (3).jpg";
+
+import shoe1 from "../src/Assets/Mon_Side-1024x576 (1).png";
 
 // import suit3 from "../src/Assets/";
 
@@ -34,7 +37,8 @@ function App() {
 Crafted in Italy by Cadini, this dress shirt is made from 100% premium cotton, ensuring unparalleled softness, breathability, and durability. 
 The quality design makes this shirt a versatile staple for the modern gentleman. Whether paired with a tailored suit for a sharp professional look or dressed down with chinos for a smart-casual vibe, the Cadini Dress Shirt is the epitome of understated elegance.
 Experience the perfect blend of comfort, quality, and Italian artistry. Choose your shade—blue for a touch of sophistication or white for timeless purity—and make a statement with every wear. Step into luxury. Step into Cadini.`,
-            price: 179.99,
+            price: 155,
+            old_price: 185,
             currency: "AUD",
             sizes: ["40", "42"],
             imageUrl: shirt,
@@ -51,7 +55,7 @@ Made from premium denim fabric, Cadini jeans are as comfortable as they are styl
 
 
 Comfortable and stylish premium denim fabric pairs effortlessly with casual blazers, polos, or t-shirts. Step up your denim game with Cadini Jeans.`,
-            price: 160.0,
+            price: 155.0,
             old_price: 170.0,
             sizes: ["33"],
             currency: "AUD",
@@ -67,7 +71,9 @@ The suit features a classic navy blue base with a subtle windowpane pattern, add
 Tailored in size 48, this suit offers a modern, fitted silhouette that exudes confidence and style. As a product made in Italy, it reflects the finest craftsmanship and attention to detail, synonymous with Italian tailoring.
 Ideal for the discerning gentleman, this Cadini suit combines timeless design with contemporary elegance, making it a standout addition to any wardrobe.
 `,
-            price: 850.0,
+            price: 821,
+            old_price: 850,
+
             currency: "AUD",
             sizes: ["48"],
             imageUrl: suit1,
@@ -108,7 +114,9 @@ Versatile design perfect for casual or layered looks.
             name: "GIANMARCO VENTURI 100% Cotton Polo Shirt",
             description:
                 "Upgrade your wardrobe with this GIANMARCO VENTURI Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability. Available in Blue or Black.",
-            price: 130.0,
+            price: 99.0,
+            old_price: 120.0,
+
             currency: "AUD",
             sizes: ["M"],
             imageUrl: polo1,
@@ -136,6 +144,26 @@ Versatile design perfect for casual or layered looks.
             sizes: ["M"],
             imageUrl: jumper1,
             imageUrl2: jumper2,
+        },
+        {
+            id: 6,
+            name: "Coming soon! Palmone Slip-On Loafer – Brown (Size 44)",
+            description: `Elevate your footwear collection with the timeless elegance of the Palmone Slip-On Loafer. Crafted for comfort and sophistication, this loafer features:
+•	Upper: Premium burnished Italian calf leather for a rich, refined finish
+•	Lining: Fully lined with smooth cow leather for breathable comfort
+•	Insoles: Cushioned leather insoles to provide all-day support
+•	Sole: Leather sole and heel, enhanced with a rubber topy forepart for added grip and durability
+Perfectly suited for smart-casual or formal occasions, the Palmone loafer slips on with ease and wears beautifully over time.
+Colour: Brown
+`,
+
+            price: 275,
+            // old_price: 275,
+            sizes: ["44"],
+
+            currency: "AUD",
+            imageUrl: shoe1,
+            // imageUrl2: shoe2,
         },
     ]);
 
