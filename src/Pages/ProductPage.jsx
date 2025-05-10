@@ -130,6 +130,7 @@ const styles = {
         flex: 1,
     },
     image: {
+        //    display: "flex",
         width: "100%",
         maxWidth: "400px",
         height: "auto",

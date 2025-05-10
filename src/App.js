@@ -25,6 +25,7 @@ import jumper1 from "../src/Assets/per (1).jpg";
 import jumper2 from "../src/Assets/per (3).jpg";
 
 import shoe1 from "../src/Assets/Shoes4.JPG";
+import shoe2 from "../src/Assets/Shoes7.jpg";
 
 // import suit3 from "../src/Assets/";
 
@@ -163,10 +164,9 @@ Elevate every step with Palmone — where comfort meets craftsmanship, and every
             price: 275,
             // old_price: 275,
             sizes: ["44"],
-
             currency: "AUD",
             imageUrl: shoe1,
-            // imageUrl2: shoe2,
+            imageUrl2: shoe2,
         },
     ]);
 
