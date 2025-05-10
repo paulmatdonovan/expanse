@@ -24,7 +24,7 @@ import polo2 from "../src/Assets/Black polo.jpg";
 import jumper1 from "../src/Assets/per (1).jpg";
 import jumper2 from "../src/Assets/per (3).jpg";
 
-import shoe1 from "../src/Assets/Mon_Side-1024x576 (1).png";
+import shoe1 from "../src/Assets/Shoes4.JPG";
 
 // import suit3 from "../src/Assets/";
 
@@ -114,8 +114,8 @@ Versatile design perfect for casual or layered looks.
             name: "GIANMARCO VENTURI 100% Cotton Polo Shirt",
             description:
                 "Upgrade your wardrobe with this GIANMARCO VENTURI Polo Shirt - the perfect blend of style and comfort! Made from premium piqué cotton for breathability and durability. Available in Blue or Black.",
-            price: 99.0,
-            old_price: 120.0,
+            price: 99.99,
+            old_price: 125.77,
 
             currency: "AUD",
             sizes: ["M"],
@@ -139,22 +139,25 @@ Versatile design perfect for casual or layered looks.
             id: 7,
             name: "Button-up jumper by EXIBIT - 100% Made in Italy ",
             description: `Crafted in Italy from 100% lightweight wool, this light brown EXIBIT jumper offers refined style and breathable comfort. Featuring a classic button-up design in a versatile light brown shade, it's perfect for layering or wearing on its own. Ideal for smart-casual looks all year round.`,
-            price: 150.0,
+            price: 150.99,
             currency: "AUD",
             sizes: ["M"],
             imageUrl: jumper1,
             imageUrl2: jumper2,
         },
         {
-            id: 6,
-            name: "Coming soon! Palmone Slip-On Loafer – Brown (Size 44)",
-            description: `Elevate your footwear collection with the timeless elegance of the Palmone Slip-On Loafer. Crafted for comfort and sophistication, this loafer features:
-•	Upper: Premium burnished Italian calf leather for a rich, refined finish
-•	Lining: Fully lined with smooth cow leather for breathable comfort
-•	Insoles: Cushioned leather insoles to provide all-day support
-•	Sole: Leather sole and heel, enhanced with a rubber topy forepart for added grip and durability
-Perfectly suited for smart-casual or formal occasions, the Palmone loafer slips on with ease and wears beautifully over time.
-Colour: Brown
+            id: 8,
+            name: `Palmone Black Leather Lace-Up Shoes`,
+            description: `Step into sophistication with our Palmone Black Lace-Up Shoes — a timeless essential that blends premium materials, classic design, and unmatched comfort. Handcrafted in Melbourne using traditional Italian techniques, these shoes are built for those who value quality, durability, and refined style.
+
+Why You'll Love Them:
+✔️ Premium leather for a soft, flexible fit
+✔️ Expert craftsmanship built to stand the test of time
+✔️ Supportive soles for all-day comfort
+✔️ Versatile design - perfect for work, weekends, and formal occasions
+✔️ European styling, made right here in Melbourne
+
+Elevate every step with Palmone — where comfort meets craftsmanship, and every detail speaks of quality.
 `,
 
             price: 275,
