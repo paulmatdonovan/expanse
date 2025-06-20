@@ -104,7 +104,9 @@ Features the iconic Cadini station insgina
 Versatile design perfect for casual or layered looks.
 
 `,
-            price: 99.0,
+            price: 75.0,
+            old_price: 99.0,
+
             currency: "AUD",
             sizes: ["M"],
             imageUrl: tshirt,
@@ -129,7 +131,9 @@ Versatile design perfect for casual or layered looks.
             description: `Elevate your wardrobe with this impeccably tailored single-breasted suit, expertly crafted from 100% premium Italian wool. Designed for both sophistication and comfort, this lightweight suit features a refined medium blue with a subtle pinstripe, making it a versatile choice for business or formal occasions. Details: * Fabric: 100% Italian wool (lightweight) * Color: Medium blue with thin pinstripe * Fit: Classic single-breasted design * Size: 38R. Handmade with precision, this suit embodies timeless elegance and superior craftsmanship. Limited availability—contact us today to secure yours!
 `,
 
-            price: 875.0,
+            price: 777,
+            old_price: 850,
+
             sizes: ["38"],
 
             currency: "AUD",
@@ -141,6 +145,7 @@ Versatile design perfect for casual or layered looks.
             name: "Button-up jumper by EXIBIT - 100% Made in Italy ",
             description: `Crafted in Italy from 100% lightweight wool, this light brown EXIBIT jumper offers refined style and breathable comfort. Featuring a classic button-up design in a versatile light brown shade, it's perfect for layering or wearing on its own. Ideal for smart-casual looks all year round.`,
             price: 150.99,
+            old_price: 170,
             currency: "AUD",
             sizes: ["M"],
             imageUrl: jumper1,
@@ -161,8 +166,8 @@ Why You'll Love Them:
 Elevate every step with Palmone — where comfort meets craftsmanship, and every detail speaks of quality.
 `,
 
-            price: 275,
-            // old_price: 275,
+            price: 299,
+            old_price: 455,
             sizes: ["44"],
             currency: "AUD",
             imageUrl: shoe1,

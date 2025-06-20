@@ -45,7 +45,7 @@ const Card = ({ products }) => {
         >
             <div className="store-page">
                 <div className="header">
-                    <h1>Expanse Menswear</h1>
+                    <h1>Expanse Menswear Nhill</h1>
                 </div>
                 <div className="store">
                     {products.map((product) => (
